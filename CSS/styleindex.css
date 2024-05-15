@@ -1,0 +1,102 @@
+
+/* header */
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.header {
+    position: fixed;
+    display: flex;
+    margin: 0;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 60px;
+    width: 100%;
+}
+
+.header h1 {
+    text-align: center;
+    height: 60px;
+}
+
+.header-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.list {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.header-menu ul li a {
+    display: block;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+}
+
+.header-menu ul li a:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+/* body */
+
+#welcome {
+    background-color: lightblue;
+    padding: 300px 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#welcome img {
+    width: 50%;
+}
+
+#work {
+    background-color: chartreuse;
+    padding: 300px 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#skill {
+    background-color: bisque;
+    padding: 300px 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#about {
+    background-color: blueviolet;
+    padding: 300px 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#contact {
+    background-color: coral;
+    padding: 300px 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+
